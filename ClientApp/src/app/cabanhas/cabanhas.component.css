@@ -1,0 +1,48 @@
+header{
+    font-size: 70px;
+    text-align: center;
+}
+/*estilo de div que incluye todos los datos de cabaña*/
+.div-cab{
+    border-width: 10px;
+    border-style: dotted;
+    margin: 50px;
+    display: inline-block;
+    background-color: aquamarine; /*colores puestos para visualizar los div, quitar al final*/
+}
+/*estilo div que contiene imagen*/
+.div-img{
+    display: inline-block;
+    background-color: antiquewhite;/*colores puestos para visualizar los div, quitar al final*/
+}
+/*estilo imagenes*/
+.img-cab{
+    width: 50%;
+    height: 100%;
+}
+/*
+.nombre-cab{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+*/
+.def-cab{
+    white-space: normal;
+}
+
+.div-text{
+    display: inline-block;
+    margin-left: 1%;
+    background-color: chartreuse;/*colores puestos para visualizar los div, quitar al final*/
+    width: 45%;
+    height: 80%;
+}
+.div-funcionalidades{
+    background-color: brown;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    
+}

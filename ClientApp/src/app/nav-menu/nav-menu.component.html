@@ -3,7 +3,8 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
   >
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">pruebaParaFinal</a>
+      <img class="imagen-logo" src="https://cdn.pixabay.com/photo/2014/04/02/16/26/hut-307269_960_720.png" alt="Logo"/>
+      <a class="navbar-brand" [routerLink]="['/']">Cabañas del bosque</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -25,18 +26,15 @@
             [routerLinkActive]="['link-active']"
             [routerLinkActiveOptions]="{ exact: true }"
           >
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
+            <a class="nav-link text-dark" [routerLink]="['/']">Inicio</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/counter']"
-              >Counter</a
+            <a class="nav-link text-dark" [routerLink]="['/cabanhas']"
+              >Cabañas</a
             >
           </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-              >Fetch data</a
-            >
-          </li>
+
+          
         </ul>
       </div>
     </div>

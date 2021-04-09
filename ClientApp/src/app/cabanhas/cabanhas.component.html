@@ -1,0 +1,19 @@
+<header>Estas son todas nuestras cabañas:</header>
+<div class="div-cab" *ngFor="let cab of cabanhas">
+  <!--Hacemos un for para recorrer todos los objetos cabanha de la clase y mostrarlos-->
+  <div class="div-img">
+      
+    <img class="img-cab" src="{{ cab.url }}" />
+    
+    <div class="div-text">
+      <h4 class="nombre-cab">{{ cab.nombre }}</h4>
+      <p class="def-cab">{{ cab.definicion }}</p>
+    </div>
+  </div>
+  <div class="div-funcionalizades" *ngIf="cab.cantidadDisponible>0">
+    <button>Reservar</button>
+</div>
+</div>
+<!--Se supone que deberia quedar un div que contuviese la imagen a la izquierda en todo su ancho y un 40-50% de largo, 
+al otro lado su nombre y definicion, bien colocados. El boton de reservar deberia de quedar debajo del texto,
+en otro div o como se haga, pero siempre pegado a la esquina inferior derecha del div principal-->

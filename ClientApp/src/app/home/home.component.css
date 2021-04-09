@@ -1,0 +1,28 @@
+/* estilos para texto de cabecera, estaria bien que de alguna manera el 
+texto se superpusiera en la imagen y asi tener la imagen de cabecera con
+el texto*/
+.cabecera { 
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+}
+/* estilos para la imagen de la cabecera*/
+.imagen-cabecera {
+  margin: 10px auto;
+  display: block;
+}
+/* estilos para el div que contiene los textos despues de la imagen*/
+.texto-inferior{
+    width:80%;
+    margin:0px auto;
+    align-items: center;
+}
+/*estilos para el titulo dp de la imagen*/
+.texto-inferior h2{
+    margin: auto;
+    text-align: center;
+}
+/* para el texto en latin de prueba*/
+.texto-inferior p{
+    margin-top: 30px;
+}

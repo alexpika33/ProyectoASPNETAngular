@@ -67,7 +67,7 @@ namespace pruebaParaFinal
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200"); //cambiamos para inicializar por separado angular do net
                 }
             });
         }
